@@ -5,9 +5,15 @@ const hostname = 'localhost';
 const port  ='3000';
 const bodyParser = require('body-parser');
 const app = express();
+
+const dishRouter = require('./routes/dishRouter');
+
+
 app.use(morgan('dev'));
 app.use(bodyParser.json()); // by using this, req.body will be having all the information
 app.use(express.static(__dirname+'/public'));
+
+app.use('/dishes', dishRouter);
 
 app.all('/dishes',(req,res,next)=>{
     res.statusCode = 200;
