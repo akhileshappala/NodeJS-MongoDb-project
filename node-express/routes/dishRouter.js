@@ -25,4 +25,25 @@ dishRouter.route('/')
     res.end('Deleting all dishes');
 });
 
+dishRouter.route('/:dishId')
+    .all(function (req, res, next) {
+        res.writeHead(200, {
+            'Content-Type': 'text/plain'
+        });
+        next();
+    })
+    //setting up code for get request
+    .get(function (req, res, next) {
+        res.end('Will send details of the dish: ' + req.params.dishId + ' to you!');
+    })
+    //setting up code for put request
+    .put(function (req, res, next) {
+        res.write('Updating the dish: ' + req.params.dishId + '\n');
+        res.end('Will update the dish: ' + req.body.name +
+            ' with details: ' + req.body.description);
+    })
+    //setting up code for delete request
+    .delete(function (req, res, next) {
+        res.end('Deleting dish: ' + req.params.dishId);
+    });
 module.exports = dishRouter;
