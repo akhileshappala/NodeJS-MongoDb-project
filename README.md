@@ -11,4 +11,4 @@ Concept  | commit link/ code changes
 5.Express Router concept examples instead of above | [Express Router](https://github.com/akhileshappala/NodeJS-project/commit/20fd502b871c30178b4d40d9d6c8e3e77ce4f049)
 6.Express Generator scaffolding application | [Express Generator](https://github.com/akhileshappala/NodeJS-project/commit/801deceb2677d95d190c6c8b61cdb105e08ee792)
 7.Express-generated REST api ready | [Express Generator REST API](https://github.com/akhileshappala/NodeJS-project/commit/4aabcf99cca3ab4c4d66cf3e275e9cd41717c322)
-8.Node and MangoDb Connection, insert, find,drop data example | [Node MongoDB Example 1](https://github.com/akhileshappala/NodeJS-project/commit/9873fdb5c301cb39f12f76990194bf7b39d57e37)
+8.Node and MangoDb Connection, insert, find,drop data - Example | [Node MongoDB Example 1](https://github.com/akhileshappala/NodeJS-project/commit/9873fdb5c301cb39f12f76990194bf7b39d57e37)
