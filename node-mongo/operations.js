@@ -5,41 +5,24 @@ const assert = require('assert');
 //collection -- to which collection we are gonna insert
 // call back function
 
+const assert = require('assert');
+
 exports.insertDocument = (db, document, collection, callback) => {
-    const coll = db.collection(collection); // coll - collection
-    coll.insert(document, (err, result) => {
-        assert.equal(err, null); // checks error is null or not, if not it will stop and print 
-        // n - default property which says how many documents has been inserted
-        console.log("Inserted " + result.result.n +
-            " documents into the collection " + collection);
-        callback(result);
-    });
+    const coll = db.collection(collection);
+    return coll.insert(document);
 };
 
 exports.findDocuments = (db, collection, callback) => {
     const coll = db.collection(collection);
-    coll.find({}).toArray((err, docs) => {
-        assert.equal(err, null);
-        callback(docs);        
-    });
+    return coll.find({}).toArray();
 };
 
 exports.removeDocument = (db, document, collection, callback) => {
     const coll = db.collection(collection);
-    coll.deleteOne(document, (err, result) => {
-        assert.equal(err, null);
-        console.log("Removed the document ", document);
-        callback(result);        
-    });
+    return coll.deleteOne(document);
 };
 
 exports.updateDocument = (db, document, update, collection, callback) => {
     const coll = db.collection(collection);
-    //2nd param -- passing the fields, here update is the field,
-    
-    coll.updateOne(document, { $set: update }, null, (err, result) => {
-        assert.equal(err, null);
-        console.log("Updated the document with ", update);
-        callback(result);        
-    });
+    return coll.updateOne(document, { $set: update }, null);
 };
