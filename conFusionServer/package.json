@@ -1,20 +1,18 @@
 {
-  "name": "node-examples",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "confusionserver",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/akhileshappala/NodeJS-courseera.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/akhileshappala/NodeJS-courseera/issues"
-  },
-  "homepage": "https://github.com/akhileshappala/NodeJS-courseera#readme"
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "mongoose": "^5.1.7",
+    "mongoose-currency": "^0.2.0",
+    "morgan": "~1.9.0"
+  }
 }
