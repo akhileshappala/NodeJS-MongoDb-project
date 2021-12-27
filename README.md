@@ -22,3 +22,4 @@ Concept  | commit link/ code changes
 12.Creating schema using Create method and promise | [Mongoose Part 2](https://github.com/akhileshappala/NodeJS-MongoDb-project/commit/f90616dd160948db37be5acc2dc613491bbd3db2)
 13.Usage of subschemas in mongoose| [Mongoose Part 3](https://github.com/akhileshappala/NodeJS-MongoDb-project/commit/ba61c012a21c82e6f33d082458d5c353070eac43)
 14.Rest api with MongoDB and Mogoose | [Express REST API with MongoDB and Mongoose Part 1](https://github.com/akhileshappala/NodeJS-MongoDb-project/commit/8707b096689712f2346715a53144099d232e2f80)
+15.Rest api with MongoDB and Mogoose -Operations on sub entities /schemas| [Express REST API with MongoDB and Mongoose Part 2](https://github.com/akhileshappala/NodeJS-MongoDb-project/commit/29913bb299dddc1d835491c2dc47e6ab69df3420)
