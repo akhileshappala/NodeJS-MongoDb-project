@@ -2,8 +2,9 @@
 // http://start.jcolemorrison.com/quick-tip-organizing-routes-in-large-express-4-x-apps/
 
 var express = require('express'),
-    bodyParser = require('body-parser');
+  bodyParser = require('body-parser');
 var promoRouter = express.Router();
+var leaderRouter = require('./leaderRouter');
 
 // Use the body-parser module to parse data sent
 promoRouter.use(bodyParser.json());
