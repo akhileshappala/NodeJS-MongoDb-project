@@ -25,4 +25,5 @@ Concept  | commit link/ code changes
 15.Rest api with MongoDB and Mogoose -Operations on sub entities /schemas| [Express REST API with MongoDB and Mongoose Part 2](https://github.com/akhileshappala/NodeJS-MongoDb-project/commit/29913bb299dddc1d835491c2dc47e6ab69df3420)
 16.Basic authentication using Base64 encoding| [Basic Authentication](https://github.com/akhileshappala/NodeJS-MongoDb-project/commit/bac69c5afa1417bdcc23496936166eb09ce5a607)
 17.Basic Cookies implementation and authetication|[Cookies](https://github.com/akhileshappala/NodeJS-MongoDb-project/commit/e62cebf8775c7716cce2ce4cd152257156a73531)
-18.Express-sessions usinng file-store|[Express-session-part-1](https://github.com/akhileshappala/NodeJS-MongoDb-project/commit/9bd39f8bdaaaed5c5f069cfc89ad6f28fb7d6b65)
+18.Express-sessions using file-store|[Express-session-part-1](https://github.com/akhileshappala/NodeJS-MongoDb-project/commit/9bd39f8bdaaaed5c5f069cfc89ad6f28fb7d6b65)
+19.Express sessions - signup/login/logout|[Express Session Part 2](https://github.com/akhileshappala/NodeJS-MongoDb-project/commit/c22d014585de5c71a2d341678c570c7583b09bae)
