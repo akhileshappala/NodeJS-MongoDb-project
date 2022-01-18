@@ -1,4 +1,5 @@
 
+
 # NodeJS-complete projects  
 
 
@@ -30,5 +31,6 @@ Concept  | Commit Link/ Code Changes
 20.Autheticate (login/signup/logout) using passport|[Passport](https://github.com/akhileshappala/NodeJS-MongoDb-project/commit/47277c203a332937ff7c7af149c7d178006daa9f)
 21.User Authentication using JWT(json web toke) and passport |[Passport JWT](https://github.com/akhileshappala/NodeJS-MongoDb-project/commit/954b38b727a1256ab8f8cab2a97191f07862fa12)
 22.mongoosh population for schema linking using objectId|[Mongoose Population](https://github.com/akhileshappala/NodeJS-MongoDb-project/commit/54fdd2bf85357b65780758e2c69da63b55d5e2e2)
+23.Commands to create certificates for communicatio in local inside bin folder |-->1. openssl genrsa 1024 > private.key  -->2. openssl req -new -key private.key -out cert.csr    -->3. openssl x509 -req -in cert.csr -signkey private.key -out certificate.pem
 23.HTTPS secure server communication setup | [HTTPS](https://github.com/akhileshappala/NodeJS-MongoDb-project/commit/9de0c10ae5a5c25c5583cbb78edffd70d242d219)
 
