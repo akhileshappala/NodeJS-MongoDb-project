@@ -33,4 +33,5 @@ Concept  | Commit Link/ Code Changes
 22.mongoosh population for schema linking using objectId|[Mongoose Population](https://github.com/akhileshappala/NodeJS-MongoDb-project/commit/54fdd2bf85357b65780758e2c69da63b55d5e2e2)
 23.Commands to create certificates for communicatio in local inside bin folder |-->1. openssl genrsa 1024 > private.key  -->2. openssl req -new -key private.key -out cert.csr    -->3. openssl x509 -req -in cert.csr -signkey private.key -out certificate.pem
 23.HTTPS secure server communication setup | [HTTPS](https://github.com/akhileshappala/NodeJS-MongoDb-project/commit/9de0c10ae5a5c25c5583cbb78edffd70d242d219)
+24.Uploads file using Muter | [File Upload](https://github.com/akhileshappala/NodeJS-MongoDb-project/commit/3d20473471f5da67ff20fe7b04b03e19c4a3ec9e)
 
