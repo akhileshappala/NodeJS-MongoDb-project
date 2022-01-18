@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/akhileshappala/NodeJS-courseera/issues"
   },
-  "homepage": "https://github.com/akhileshappala/NodeJS-courseera#readme"
+  "homepage": "https://github.com/akhileshappala/NodeJS-courseera#readme",
+  "dependencies": {
+    "multer": "^1.4.4"
+  }
 }
