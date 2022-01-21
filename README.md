@@ -35,4 +35,5 @@ Concept  | Commit Link/ Code Changes
 23.HTTPS secure server communication setup | [HTTPS](https://github.com/akhileshappala/NodeJS-MongoDb-project/commit/9de0c10ae5a5c25c5583cbb78edffd70d242d219)
 24.Uploads file using Muter | [File Upload](https://github.com/akhileshappala/NodeJS-MongoDb-project/commit/3d20473471f5da67ff20fe7b04b03e19c4a3ec9e)
 25.Cors setup and working | [Cors](https://github.com/akhileshappala/NodeJS-MongoDb-project/commit/412d7f550c327d353287363279370a0c92dfa19b)
+26.Accessing info from facebook using passport | [Passport Facebook](https://github.com/akhileshappala/NodeJS-MongoDb-project/commit/aabcb026917ea2a979f4c7f07a0051d5ceba9ec9)
 
